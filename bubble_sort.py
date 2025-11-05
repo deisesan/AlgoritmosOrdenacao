@@ -1,7 +1,7 @@
 from functions import swap
 
 # Compara pares de elementos adjacentes e troca se não estiverem em ordem.
-# Complexidade O(n^2)
+# Complexidade O(n^2) - Tempo quadrático
 # Aceitável em pequenos conjuntos de dados
 def bubble_sort(array):
   n = len(array)
@@ -11,6 +11,5 @@ def bubble_sort(array):
         swap(array, j, j+1)
 
 array = [9, 1, 8, 2, 7, 3, 6, 4, 5]
-
 bubble_sort(array)
 print(array)    
