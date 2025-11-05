@@ -15,5 +15,5 @@ def insertion_sort(array):
 		array[j+1] = temp
 
 array = [9, 1, 8, 2, 7, 3, 6, 4, 5]
-insertion_sort_1(array)
+insertion_sort(array)
 print(array)
